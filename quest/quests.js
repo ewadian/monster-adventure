@@ -51,7 +51,7 @@ questChoices.addEventListener('submit', (e)=>{
     const resultsP = document.createElement('p');
     const resultsNumbers = document.createElement('p');
     resultsP.textContent = choice.result;
-    resultsNumbers.textContent = choice.sanity + ' sanity points lost. ' + choice.evidence + ' piece of evidence acquired.';
+    resultsNumbers.textContent = choice.sanity + ' sanity points. ' + choice.evidence + ' evidence acquired.';
     resultsNumbers.classList.add('pbold');
     questResults.append(resultsP, resultsNumbers, returnMapContainer);
     returnMapContainer.append(returnMapBtn);
