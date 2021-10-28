@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Monster Hunter</title>
+</head>
+
+<body>
+    <header>
+        <h1>Here There Be Monsters</h1>
+    </header>
+    <div id="home-container">
+        <form id="user-form">
+            <label for="name">
+                YOUR NAME<br>
+                <input type="text" id="name" name="name">
+            </label>
+            <legend>CHOOSE YOUR CLASS</legend>
+                <div id="options-container">
+                    <label class="options-display">
+                        <input type="radio" name="class" class="main" required value="skeptic">
+                                <img src="./assets/skeptic.png" class="user-image">
+                            The Skeptic
+                    </label>
+                    <label class="options-display">
+                        <input type="radio" name="class" class="main" required value="zoologist">
+                                <img src="./assets/zoologist.png" class="user-image">
+                            The Cryptozoologist
+                    </label>
+                    <label class="options-display">
+                        <input type="radio" name="class" class="main" required value="empath">
+                                <img src="./assets/empath.png" class="user-image">
+                            The Empath
+                    </label>
+                </div>
+                <button id="submit">start your adventure</button>
+        </form>
+    </div>
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
