@@ -1,0 +1,21 @@
+#results-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#final-icon {
+    display: flex;
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+}

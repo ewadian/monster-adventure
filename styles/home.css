@@ -1,0 +1,93 @@
+
+body {
+    background-color: #111111;
+    color: #fefefe;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    color: #839791;
+}
+
+#home-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 0px;
+    text-align:center;
+}
+
+input[type="radio"].main {
+    display: none;
+}
+input[type="radio"]+ img {
+opacity: 0.3;
+    }
+
+input[type="radio"]:checked + img {
+opacity: 1;
+}
+
+button {
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+    background-color: #839791;
+    color: #121212;
+}
+
+legend {
+    margin: 20px;
+}
+
+.options-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+#user-icon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.user-image {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 10px;
+}
+
+#user-stats {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+}
+
+p#user-name, p#user-sanity, p#user-evidence {
+    margin: 0px;
+}
+
+#options-container {
+    display: flex;
+}

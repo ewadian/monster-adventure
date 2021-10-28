@@ -1,0 +1,80 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #839791;
+}
+
+img#quest-image {
+    width: 700px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 1px solid #839791;
+}
+
+#quest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+
+#quest-description {
+    font-weight: 100;
+}
+
+#quest-description, #quest-results {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#quest-choices {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    font-family: 'raleway', sans-serif;
+
+}
+
+#quest-results {
+    background-color: #839791;
+    padding: 10px 40px 10px 40px;
+    margin: 30px;
+    width: 702px;
+    color: #121212;
+    font-weight: normal;
+}
+
+.hidden{
+    display: none;
+    background-color: #111111;
+}
+
+button {
+    width:fit-content;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #781717;
+    color: #fefefe;
+}
+
+.return-button {
+    background-color: #111111;
+    color: #fefefe;
+    font-weight: 100;
+}
+
+.return-container {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.pbold {
+    font-weight: bold;
+}
