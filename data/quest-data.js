@@ -63,7 +63,7 @@ const blackDog = {
     },
     image: '../assets/blackdog.jpg',
     description: `
-        After a late night at the bar, you've found yourself with a dead phone battery,
+        After a late night at the bar, you've found yourself 
         stuck wobbling home on foot. You turn down the alley you think is the shortcut
         home. Seconds later, a garbage can topples -- a large raccoon is sprinting frantically down the alley
         with a large, lanky black dog hot on his heels.
